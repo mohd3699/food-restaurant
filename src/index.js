@@ -9,11 +9,11 @@ import { ContextProvider } from "./context/foodMenus.context";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<ThemeProvider theme={theme}>
-			<ContextProvider>
+		<ContextProvider>
+			<ThemeProvider theme={theme}>
 				<App />
-			</ContextProvider>
-		</ThemeProvider>
+			</ThemeProvider>
+		</ContextProvider>
 	</React.StrictMode>,
 	document.getElementById('root')
 );

@@ -52,7 +52,6 @@ function FoodMenus() {
 
     const fetchData = async () => {
         const resp = await axios.get("./data/feeds.json");
-        console.log("====> dat a; ", resp)
         setMenus(resp.data || [])
     }
 
