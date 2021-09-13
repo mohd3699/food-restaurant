@@ -8,7 +8,7 @@ import { FoodMenusContext } from "../../context/foodMenus.context";
 
 function FoodMenus() {
     const classes = useStyles();
-    const [menus, setMenus] = useState([{}])
+    const [menus, setMenus] = useState([])
     const { cartItems, addCartItem,
         removeItemFromCart, } = useContext(FoodMenusContext);
 
