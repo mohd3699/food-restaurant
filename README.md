@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # react-basic-folder-structure
 
 Basic folder structure for the react js project.
@@ -23,6 +24,9 @@ Basic folder structure for the react js project.
  package.json
  ....etc.
  
+=======
+# food-restaurant
+>>>>>>> a47006f4bdba1accfd7d8556bc7433d1653f326a
 =======
 # food-restaurant
 >>>>>>> a47006f4bdba1accfd7d8556bc7433d1653f326a
