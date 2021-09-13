@@ -11,7 +11,6 @@ function App() {
 		<Switch>
 			<Route exact path={pagePaths.root} component={Welcome} />
 			<Route path={pagePaths.foodMenus} component={FoodMenus} />
-			<Route path={pagePaths.foodMenus} component={FoodMenus} />
 			<Route path={pagePaths.checkout} component={Checkout} />
 		</Switch>
 	</Router>
