@@ -4,5 +4,6 @@ export const API = `${baseUrl}/api`;
 export const pagePaths = {
   root: "/",
   foodMenus: "/food-menus",
-  checkout: "/checkout"
+  checkout: "/checkout",
+  orderSummary: "/order-summary"
 };
